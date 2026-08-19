@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Runtime data — this is a file-based DB; never commit seeded/live data
+backend/data/
+backend/backups/
+backend/uploads/
+
+# Environment secrets
+.env
+.env.local
+backend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Vercel
+.vercel/

@@ -1,0 +1,32 @@
+{
+  "name": "nsemas-backend",
+  "version": "1.0.0",
+  "description": "NSEMAS - National Smart Education Management, Attendance, Monitoring and Quality Assurance System",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node utils/seed.js",
+    "backup": "node utils/backup.js",
+    "backup:list": "node utils/backup.js --list",
+    "restore": "node utils/restore.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "docx": "^9.7.1",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.2.0",
+    "nodemailer": "^9.0.3",
+    "pdfkit": "^0.19.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.21.2"
+  }
+}
